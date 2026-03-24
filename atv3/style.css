@@ -1,0 +1,86 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ae92ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal */
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Título */
+.container h1 {
+    font-size: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+/* Labels */
+.container label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Inputs */
+.container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Botão */
+.container button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(130, 84, 182);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.meu-botao:hover {
+    background-color: rgb(48, 25, 90); /* Nova cor de fundo */
+    color: white;              /* Nova cor do texto */
+    cursor: pointer;            /* Muda o ponteiro do mouse */
+  }
+.container button:hover {
+    background-color: #270081;
+}
+
+/* Resultado */
+.resultado {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9f7ef;
+    border: 1px solid #b2dfdb;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Mensagem de erro */
+.erro {
+    color: rgb(235, 11, 11);
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: center;
+}
